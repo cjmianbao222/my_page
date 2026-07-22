@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦊 xsmb 的窝</title>
+    <style>
+        /* ===== 全局重置 & 字体 ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #fafafa;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 720px;
+            width: 100%;
+            background: white;
+            padding: 60px 70px 70px 70px;
+            border-radius: 32px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
+            transition: all 0.2s;
+        }
+
+        .nav {
+            display: flex;
+            gap: 32px;
+            font-size: 15px;
+            color: #888;
+            margin-bottom: 50px;
+            letter-spacing: 0.3px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #888;
+            transition: color 0.2s;
+        }
+
+        .nav a:hover {
+            color: #222;
+        }
+
+        .hero {
+            font-size: 52px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            color: #1a1a1a;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #aaa;
+            font-style: italic;
+            letter-spacing: 0.5px;
+            margin-bottom: 40px;
+            border-left: 3px solid #e0e0e0;
+            padding-left: 20px;
+        }
+
+        .body-text {
+            font-size: 17px;
+            color: #444;
+            line-height: 1.9;
+            margin-bottom: 40px;
+        }
+
+        .big-char {
+            font-size: 120px;
+            font-weight: 900;
+            color: #1a1a1a;
+            line-height: 1;
+            margin-top: 10px;
+            opacity: 0.92;
+            letter-spacing: 0;
+        }
+
+        .footer-links {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #f0f0f0;
+            display: flex;
+            gap: 28px;
+            font-size: 14px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #999;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: #222;
+        }
+
+        @media (max-width: 550px) {
+            .container {
+                padding: 35px 28px 40px 28px;
+                border-radius: 20px;
+            }
+            .hero {
+                font-size: 34px;
+            }
+            .subtitle {
+                font-size: 16px;
+                padding-left: 14px;
+            }
+            .big-char {
+                font-size: 80px;
+            }
+            .nav {
+                gap: 20px;
+                font-size: 13px;
+            }
+            .footer-links {
+                flex-wrap: wrap;
+                gap: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- 导航栏：博客链接已指向你的博客园 -->
+        <div class="nav">
+            <a href="https://www.cnblogs.com/xsmb222/" target="_blank">📝 博客</a>
+            <a href="#">🐾 关于</a>
+            <a href="#">🚀 项目</a>
+            <a href="#">💌 联系</a>
+        </div>
+
+        <div class="hero">HI, I AM <br>bread 🍞</div>
+
+        <div class="subtitle">
+            饿就吃饭 <br>
+            马库斯世界第一可爱 ✨
+        </div>
+
+        <div class="body-text">
+            一个懒家伙  <br>
+            我真的很喜欢数学 
+        </div>
+
+        <div class="big-char">呱！</div>
+
+        <div class="footer-links">
+            <a href="https://github.com/cjmianbao222" target="_blank">🐙 GitHub</a>
+            <a href="mailto:225170169@qq.com">✉️ Email</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
